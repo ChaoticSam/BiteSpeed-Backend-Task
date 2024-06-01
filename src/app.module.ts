@@ -10,11 +10,11 @@ import { ContactRepository } from './module/contact/contact.repository';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
+      host: 'dpg-cpdjiqlds78s73ejl6r0-a',
       port: 5432,
-      username: 'postgres',
-      password: 'Shivam@0102',
-      database: 'bitespeed',
+      username: 'admin',
+      password: '23Q1sxP2ESLtMgW5T860bBioRxxenhg9',
+      database: 'bitespeed_7ltd',
       entities: [Contact, ContactRepository],
       synchronize: true,
     }),
